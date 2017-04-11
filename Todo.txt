@@ -1,0 +1,4 @@
++- apostrophes in competences werken niet !
++- mis a jour db na iedere modif -> inplaats van "mis a jour" button
+- Competences en ordre alphabetique dans le PDF
+
