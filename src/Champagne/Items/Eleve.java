@@ -15,9 +15,9 @@ public class Eleve extends Object{
   public String PRENOM;
   public int NIVEAU;
   public int ANNEE;
-  public int BY=0000;
-  public int BM=00;
-  public int BD=00;
+  public int BY = 0;
+  public int BM = 0;
+  public int BD = 0;
 
   public Eleve(int ID, String NOM, String PRENOM, int NIVEAU, int ANNEE) {
     this.ID = ID;

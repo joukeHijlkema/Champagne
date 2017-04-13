@@ -145,7 +145,6 @@ public class Bulletin2 {
         this.Y -= BoxLeft(cos, n.NOTE, fontPlain, 11, midEnd, Y, rightColWidth, rowHeight);
       }
     }
-
   }
 
   private PDPageContentStream newPage() {

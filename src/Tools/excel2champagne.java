@@ -43,7 +43,7 @@ public class excel2champagne {
       Sheet s = wb.getSheetAt(i);
       String name = s.getSheetName();
       String[] items = name.split("-");
-      int iPeriode = myDB.addPeriode(new Periode(0, Integer.parseInt(items[0].trim()), Integer.parseInt(items[1].trim().substring(10))));
+      int iPeriode = myDB.addPeriode(new Periode(0, Integer.parseInt(items[0].trim()), Integer.parseInt(items[1].trim().substring(10)),"","",""));
       System.out.println("iPeriode = " + iPeriode);
       int r = 3;
 
